@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Novel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="visual-novel">
+    <div id="prologue-container">
+        <p id="prologue"></p><br>
+        <button id="start-button" style="display:none">Mulai</button> <!-- Tambahkan tombol "Mulai" -->
+    </div>
+      
+    <div id="background"></div>
+    <div id="character-container">
+      <img id="character1" class="character" src="girl.png">
+      <img id="character2" class="character" src="boy.png">
+    </div>
+    <div id="dialogue-container" style="display:none">
+      <p id="dialogue"></p>
+      <button id="next-button" style="display:none">Next</button>
+    </div>
+
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
