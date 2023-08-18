@@ -27,16 +27,13 @@ html, body {
 .C-slide {
   height: 100vh;
   width: 100vw;
-  object-fit: contain;
-  background-position: 50% 50%;
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: slategray no-repeat center/cover;
-  background-image: url("https://img.freepik.com/free-photo/blue-paint-wall-background-texture_53876-14183.jpg");
+  background: blueviolet no-repeat center/cover;
   background-blend-mode: overlay;
   font-family: arial;
   font-weight: bold;
@@ -162,7 +159,6 @@ html, body {
   transition: all 300ms ease;
   transition-delay: 500ms;
 }
-
 @media (min-width: 480px) {
   .C-slide-title {
     font-size: 2rem;
@@ -193,6 +189,4 @@ html, body {
   padding: 10px;
   background: #fff;
   cursor: pointer;
-}
-
-/*# sourceMappingURL=styles2.css.map */
+}/*# sourceMappingURL=styles2.css.map */

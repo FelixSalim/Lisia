@@ -121,7 +121,7 @@ function showNextDialogue() {
   } else {
     dialogueContainer.style.display = 'none';
     currentIndex = 0;
-    bgMusic.pause(); // Jeda musik latar saat cerita selesai
+    // bgMusic.pause(); // Jeda musik latar saat cerita selesai
   }
 }
 
